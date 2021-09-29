@@ -22,12 +22,12 @@ function findUser(lastName, gender) {
         // add appropriate code here
     } catch (error) {
     return // Change this line
-    console.log(); // Change this l i ne
+    console.log(); // Change this line
     }
 }
 
 // findUser(lastName, gender) function ends here
-// Only change code above this l ine
+// Only change code above this line
 getUsers();
 findUser(); // Change this line
-module.exports findUser ;
+module.exports = findUser ;
