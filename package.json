@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/thecigura/Repo17/issues"
   },
-  "homepage": "https://github.com/thecigura/Repo17#readme"
+  "homepage": "https://github.com/thecigura/Repo17#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
