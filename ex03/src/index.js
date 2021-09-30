@@ -7,8 +7,10 @@ const MY_CAR = {
 function main(myCar) {
     // Only change code below this line
 
-    const cylinders = MY_CAR.cylinders;
-    const size = MY_CAR.size;
+    //const carCylinders = MY_CAR.cylinders;
+    //const carSize = MY_CAR.size;
+
+    const {cylinders: carCylinders, size: carSize} = MY_CAR;
 
     return {carCylinders, carSize}
     // Only change code above this line
