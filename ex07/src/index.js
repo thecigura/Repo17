@@ -8,12 +8,9 @@ const range = {
 // Only change code below this line
 
     
-const middle = (range) => (range.max + range.min) / 2.0; 
+const middle = ({max, min}) => (max + min) / 2.0; 
 
 
 // Only change code above this line
-
-
-
-console.log(removeFirstTwo(array1));
-module.exports = removeFirstTwo;
+console.log(middle(range));
+module.exports = middle;
